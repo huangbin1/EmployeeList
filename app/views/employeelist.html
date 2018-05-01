@@ -1,0 +1,10 @@
+<div>
+  <ul class="employee-list" >
+    
+    <li ng-repeat="item in list">
+        <div ng-click="item.flag=!item.flag">{{item.name}}</div>
+        <div ng-if="item.flag">{{item.info}}</div>
+    </li>
+    
+  </ul>
+</div>

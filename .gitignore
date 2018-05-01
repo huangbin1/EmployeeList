@@ -1,5 +1,5 @@
-# Object file
-*.o
-
-# Ada Library Information
-*.ali
+node_modules/
+app/bower_components/
+npm-debug.log
+.DS_Store
+dist
