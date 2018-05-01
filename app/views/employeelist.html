@@ -2,8 +2,8 @@
   <ul class="employee-list" >
     
     <li ng-repeat="item in list">
-        <div ng-click="item.flag=!item.flag">{{item.name}}</div>
-        <div ng-if="item.flag">{{item.info}}</div>
+        <div class="name" ng-click="item.flag=!item.flag"><a>{{item.name}}</a></div>
+        <div class="info" ng-click="pop(item.popInfo)" ng-if="item.flag"><p>{{item.info}}</p></div>
     </li>
     
   </ul>
